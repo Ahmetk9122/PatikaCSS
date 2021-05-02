@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    background-color:gray;
+    color:navy;
+    margin: 0px;
+    height: 77px;
+    padding-top: 38px;
+}
+#op
+{
+  
+    opacity: 0.5;
+}
+.container{
+    padding-left: 150px;
+    padding-right: 150px;
+}

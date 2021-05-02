@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim |Ahmet KARABUDAK</title>
+    <link rel="stylesheet" href="css/index.css"> 
+    <link rel="stylesheet" href="css/index-private.css">
+    <style>
+     
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <ul>
+          <li><a class="active" href="index.html">Ana Sayfa</a></li>
+          <li><a href="products.html">Ürünlerimiz</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+          <li><a href="about-us.html">Hakkımızda</a></li>
+        </ul>
+        </div>
+        <div id="op">
+          <h1 style="text-align: center;">İletişim Formu </h1>
+           </div>
+           <br>
+           <br>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Adınız</label>
+    <input type="text" id="fname" name="firstname" placeholder="Adınız...">
+
+    <label for="lname">Soyadınız</label>
+    <input type="text" id="lname" name="lastname" placeholder="Soyadınız...">
+
+    <label for="Şehir">Şehir</label>
+    <select id="sehir" name="sehir">
+      <option value="İstanbul">İstanbul</option>
+      <option value="Kayseri">Kayseri</option>
+      <option value="Ankara">Ankara</option>
+      <option value="Adana">Adana</option>
+      <option value="Yozgat">Yozgat</option>
+      <option value="İzmir">İzmir</option>
+      <option value="Eskişehir">Eskişehir</option>
+      <option value="Antalya">Antalya</option>
+      <option value="Bursa">Bursa</option>
+      <option value="Van">Van</option>
+    </select>
+
+    <label for="subject">Konu</label>
+    <textarea id="subject" name="subject" placeholder="İletişime Geçin!" style="height:200px"></textarea>
+
+    <div style="text-align: center;" >
+    <input style="width: 200px;" type="submit" value="Gönder">
+  </div>
+  </form>
+</div>
+<br>
+<br>
+<div class="footer-basic" >
+  <footer >
+      <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Home</a></li>
+          <li class="list-inline-item"><a href="#">Services</a></li>
+          <li class="list-inline-item"><a href="#">About</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+      </ul>
+ 
+  </footer>
+</div>
+</body>
+</html>
